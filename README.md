@@ -123,3 +123,7 @@ if metadataObjects.count != 0{
 ```
 
 ##### 最後一定要在info裡面增加為何取用相機的隱私權設定
+
+![](https://github.com/Yen-Chen/iOSWebServer/blob/master/info.png)
+
+##### 這樣即可開啟QRcode開始掃描。
