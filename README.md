@@ -30,7 +30,7 @@ func initWebServer() {
 }
 ```
 
-##### 寫完Function後，記得在ViewDidLoad裡面增加此Function：
+##### 寫完Function後，記得在viewDidLoad裡面增加此Function：
 
 ```swift
 override func viewDidLoad() {
