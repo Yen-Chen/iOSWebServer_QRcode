@@ -9,7 +9,9 @@
 
 ##### 進入專案裡面後，在`ViewController`檔案裡面的最頂端輸入：
 
-`import GCDWebServer`
+```swift 
+import GCDWebServer
+```
 
 ##### 之後自己寫一個Function，用來實體化GCDWebServer與實行必要的流程：
 
@@ -43,11 +45,15 @@ override func viewDidLoad() {
 
 ##### 一樣在進入專案後，在`ViewController`檔案裡面輸入：
 
-`import AVFoundation`
+```swift
+import AVFoundation
+```
 
 ##### 增加AVFoundation裡面的Delegate：
 
-`AVCaptureMetadataOutputObjectsDelegate`
+```swift
+AVCaptureMetadataOutputObjectsDelegate
+```
 
 ##### 之後增加下面video的全域變數，用來讓相機的影像投影到手機畫面上，然後陣列用來儲存掃描後的資料：
 
