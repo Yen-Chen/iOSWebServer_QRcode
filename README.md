@@ -92,14 +92,14 @@ view.bringSubview(toFront: scanView)
 session.startRunning()
 ```
 
-##### 再來增加Delegate的function，這個用來偵測掃掉的條碼是QrCode或者是BarCode
+##### 再來增加Delegate的function，這個用來偵測掃掉的條碼是QrCode或者是BarCode：
 
 ```swift
 func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
 }
 ```
 
-##### 並在此Function增加以下程式碼
+##### 並在此Function增加以下程式碼：
 
 ```swift 
 //metadataObjects為掃描到的物件，若為空值則繼續搜尋
@@ -122,7 +122,7 @@ if metadataObjects.count != 0{
 }
 ```
 
-##### 最後一定要在info裡面增加為何取用相機的隱私權設定
+##### 最後一定要在info裡面增加為何取用相機的隱私權設定：
 
 ![](https://github.com/Yen-Chen/iOSWebServer/blob/master/info.png)
 
